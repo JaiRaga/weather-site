@@ -1,2 +1,2 @@
 # weather-site
-An Weather forecast site build using node.js
+An Weather forecast app build using node.js
