@@ -7,7 +7,7 @@ const geocode = (address, callback) => {
        if (error) {
           callback("Unable to connect to location service!")
        } else if (body.features.length === 0) {
-          callback("unable to find the location coordinates. Try another search")
+          callback("Unable to find the location coordinates. Try another search")
        } else {
           const latitude   = body.features[0].center[1],
                 longitude  = body.features[0].center[0],
